@@ -1,0 +1,63 @@
+1. Even or odd
+
+Best: O(1)
+Worst: O(1)
+No matter which value is inputted there will only be one step of logic
+
+
+2. Are you here?
+
+Best: O(1)
+Worst: O(n^2)
+There is a chance that the first item in both arrays are same, which means it would only take one stetp of logic to return true. However, in the worst case, it would go through every item in both arrays and not even find a match. 
+
+
+3. Doubler
+
+Best: O(n)
+Worst: O(n)
+For any array that is inputted, it will loop as many times as the length of the array.
+
+
+4. Naive Search
+
+Best: O(1)
+Worst: O(n)
+In the Worst case scenario, the item we are looking for is the first item on the array. If the item is at the end of the array or is not in the array, it will loop as many times as the array length.
+
+
+5. Creating pairs
+
+Best: O(n^2)
+Worst: O(n^2)
+For any array input the complexity would be O(n^2) because we are looping through the array two times. (Note: the second time is looping one less time)
+
+
+6. Computing fibonaccis
+
+Best: O(n)
+Worst: O(n)
+For any number input greater than or equal to 2, the first two logic blocks will run for sure. Then the third logic block will run as many times as the input number minus two. So basically the three logic blocks altogether will run as many times as the input number.
+
+
+7. An Efficient Search
+
+Best: O(1)
+Worst: O(ln(n))
+In the best case scenario, the item we're looking for is in the center of the sorted array. It would then only take one step of logic. In the worst case, the item won't be in the array, which in this case the array will continue to get halved until one item is left and then none, returning -1.
+
+
+8. Random element
+
+Best: O(1)
+Worst: O(1)
+We are just returning a random item from the inputted array. There will only be one step of logic no matter how long the array is.
+
+
+9. Is it prime?
+
+Best: O(1)
+Worst: O(n)
+If n is less than 2, a decimal, or divisible by 2, it will only take one step of logic to end the function, returning false. If n is a prime number, it will loop n-2 times and eventually leave the for loop, returning true.
+
+
